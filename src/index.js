@@ -1,15 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Raji from './Raji';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import App from './components/App/App';
 import reportWebVitals from './reportWebVitals';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <Raji name={"villian"} />
-    <Raji name={"villian"}/>
-    <Raji name={"heor"}/>
-    <Raji name={"heorine"}/>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
