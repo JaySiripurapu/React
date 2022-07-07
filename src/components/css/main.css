@@ -1,5 +1,5 @@
 .main-form{
-    width: 300px;
+    width: 325px;
     padding: 10px;
     margin: auto;
     background-color: #e3f2fd;
@@ -8,12 +8,117 @@
     width: 50%;
 }
 .formbtn{
-    width: 120px;
+    width: 140px;
     padding: 5px;
     font-size: 13px;
     border: 1px solid #1976d2;
     background-color: #1976d2;
 }
 .form-wrapper{
-    padding:20px;
+    display:flex;
+ 
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding:10px;
+    
+}
+.form-wrapper-fields{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+}
+.clear{
+    width: 150px;
+    height: 40px;
+    margin: 5px;
+    background-color: rgb(236, 77, 77);
+    color: white;
+    border:none;
+    border-radius:20px ;
+}
+.add{
+    width: 100%;
+    height: 40px;
+    margin: 5px 0px;
+    background-color: rgb(64, 123, 231);
+    color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+}
+.input{
+    width: 100%;
+    height: 40px;
+    border: 2px solid black;
+}
+.ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    padding-left: 0;
+    /* align-items: center; */
+
+}
+.listItem{
+    display: flex;
+    margin: 20px 0px;
+}
+.submit-btn{
+    width: 150px;
+    height: 40px;
+    margin: 5px;
+    background-color: rgb(10, 124, 38);
+    color: white;
+    border:none;
+    border-radius:20px ; 
+}
+.form-label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.contactform-label{
+    /* width:55px; */
+    clear:left;
+    text-align:right;
+    padding-right:10px;
+}
+.contactform-input{
+    width: 250px;
+    margin-left: 15px;
+}
+.input-icons i {
+    position: absolute;
+}
+ 
+.input-icons {
+    width: 100%;
+}
+.icon {
+    padding: 9px 19px 7px 10px;
+    min-width: 40px;
+}
+.contactform-input-radio{
+    width: 50px;
+}
+.contactform-label-radio{
+    width: 100px;
+}
+.addoptionbtn{
+    width: 120px;
+    margin: 5px;
+}
+.error{
+    border: 2px solid red;
+}
+.formerror{
+    display: none;
+}
+
+.error-visible{
+    display: block;
+    color: red;
 }

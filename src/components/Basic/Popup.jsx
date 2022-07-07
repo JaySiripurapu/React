@@ -8,7 +8,7 @@ const Popup = ({ handleClose, show, children }) => {
     <div className={showHideClassName}>
       <section className="modal-main">
         {children}
-        <button type="button" style={{marginLeft:"20px"}} onClick={handleClose}>
+        <button type="button" class="cancel" onClick={handleClose} >
           CANCEL
         </button>
       </section>
